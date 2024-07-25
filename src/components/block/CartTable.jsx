@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import { formatPrice } from "@/utils/helpers";
 import Counter from "@/components/block/Counter";
 import { addItem, removeItem, clearItem } from "@/store/cartSlice";
@@ -46,7 +45,5 @@ const CartTable = () => {
     </table>
   );
 };
-
-CartTable.propTypes = {};
 
 export default CartTable;
